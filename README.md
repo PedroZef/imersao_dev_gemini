@@ -1,5 +1,3 @@
-// Criar todas instruções no README.md
-
 # Base de Conhecimento de Linguagens de Programação
 
 ## Este projeto é uma base de conhecimento interativa que permite aos usuários pesquisar informações sobre diversas linguagens de programação. Com uma interface amigável, os usuários podem digitar o nome de uma linguagem e obter detalhes relevantes, como características, usos comuns e exemplos de código.
