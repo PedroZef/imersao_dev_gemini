@@ -52,5 +52,35 @@
         "descricao": "Go (ou Golang) é uma linguagem de programação de código aberto criada pelo Google, focada em simplicidade e eficiência.",
         "ano": 2009,
         "link": "https://go.dev/doc/"
+    },
+    {
+        "nome": "Swift",
+        "descricao": "Swift é uma linguagem de programação poderosa e intuitiva para macOS, iOS, watchOS e tvOS.",
+        "ano": 2014,
+        "link": "https://swift.org"
+    },
+    {
+        "nome": "Kotlin",
+        "descricao": "Kotlin é uma linguagem de programação moderna e multiplataforma, amada pelos desenvolvedores Android.",
+        "ano": 2016,
+        "link": "https://kotlinlang.org"
+    },
+    {
+        "nome": "Rust",
+        "descricao": "Rust é uma linguagem de programação que se concentra em velocidade, segurança de memória e paralelismo.",
+        "ano": 2015,
+        "link": "https://www.rust-lang.org"
+    },
+    {
+        "nome": "Dart",
+        "descricao": "Dart é uma linguagem otimizada para clientes para criar aplicativos rápidos em qualquer plataforma.",
+        "ano": 2013,
+        "link": "https://dart.dev"
+    },
+    {
+        "nome": "Scala",
+        "descricao": "Scala é uma linguagem de programação que combina programação orientada a objetos e funcional em um pacote conciso.",
+        "ano": 2004,
+        "link": "https://www.scala-lang.org"
     }
 ]
