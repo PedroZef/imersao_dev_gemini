@@ -16,7 +16,7 @@
     --bg-gradient-start: #6541a3; /* Cor inicial do gradiente de fundo */
     --bg-gradient-end: #ebde8a; /* Cor final do gradiente de fundo */
     --header-bg-color: rgba(32, 33, 36, 0.85); /* Fundo do cabeçalho */
-    --header-border-color: #3c4043; /* Borda do cabeçalho e rodapé */
+    --header-border-color: #0a14aa; /* Borda do cabeçalho e rodapé */
     --card-bg-color: #384864; /* Fundo do card */
     --card-border-color: #30415e; /* Borda do card */
     --shadow-color: rgba(0, 0, 0, 0.2); /* Cor da sombra */
@@ -101,7 +101,7 @@ header {
     ); /* Fundo semitransparente usando variável */
     backdrop-filter: blur(10px); /* Efeito de desfoque no fundo */
     z-index: 10; /* Garante que o cabeçalho fique sobre outros elementos */
-    border-bottom: 1px solid var(--header-border-color); /* Borda inferior usando variável */
+    border-bottom: 2px solid var(--header-border-color); /* Borda inferior usando variável */
     box-shadow: 0 2px 10px var(--shadow-color); /* Sombra projetada usando variável */
     gap: 1rem; /* Espaçamento entre os elementos filhos */
 }
@@ -177,10 +177,12 @@ div input:focus {
 /* Estilos para o botão de busca ao passar o mouse */
 #botao-busca:hover {
     background-color: var(
-        --bg-color
+        --bg-gradient-end
     ); /* Inverte a cor de fundo usando variável */
     border: none; /* Remove a borda */
-    color: var(--primary-color); /* Inverte a cor do texto usando variável */
+    color: var(
+        --bg-gradient-start
+    ); /* Inverte a cor do texto usando variável */
 }
 
 /* Estilos para o botão de busca quando está sendo clicado */
@@ -204,6 +206,12 @@ main {
         minmax(20rem, 1fr)
     ); /* Colunas responsivas */
     gap: 1.5rem; /* Espaçamento entre os cards */
+}
+
+.erro {
+    color: #ff6b6b;
+    text-align: center;
+    padding: 1rem;
 }
 
 /* Estilos para cada card */

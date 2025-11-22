@@ -8,7 +8,7 @@ Você pode acessar a demonstração ao vivo do projeto aqui: [https://pedrozef.g
 
 ## 📸 Visualização
 
-![Screenshot do Projeto](https://github.com/PedroZef/imersao_dev_gemini/blob/main/assets/screen-shot.png?raw=true)
+![Screenshot do Projeto](https://github.com/PedroZef/imersao_dev_gemini/blog/main/assets/Tema Dark.png?raw=true)
 
 ## 🚀 Funcionalidades
 
@@ -27,11 +27,13 @@ Você pode acessar a demonstração ao vivo do projeto aqui: [https://pedrozef.g
 Siga os passos abaixo para executar o projeto em seu ambiente local.
 
 1.  **Clone o repositório:**
+
     ```bash
     git clone https://github.com/PedroZef/imersao_dev_gemini.git
     ```
 
 2.  **Acesse o diretório do projeto:**
+
     ```bash
     cd imersao_dev_gemini
     ```
@@ -41,13 +43,13 @@ Siga os passos abaixo para executar o projeto em seu ambiente local.
 
 ## 🤝 Contribuições
 
-Contribuições são muito bem-vindas! Se você tem ideias para melhorias ou novas funcionalidades, sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*.
+Contribuições são muito bem-vindas! Se você tem ideias para melhorias ou novas funcionalidades, sinta-se à vontade para abrir uma _issue_ ou enviar um _pull request_.
 
-1.  Faça um *fork* deste repositório.
-2.  Crie um novo *branch* (`git checkout -b feature/sua-feature`).
-3.  Faça o *commit* de suas alterações (`git commit -m 'Adiciona nova feature'`).
-4.  Faça o *push* para o *branch* (`git push origin feature/sua-feature`).
-5.  Abra um *Pull Request*.
+1.  Faça um _fork_ deste repositório.
+2.  Crie um novo _branch_ (`git checkout -b feature/sua-feature`).
+3.  Faça o _commit_ de suas alterações (`git commit -m 'Adiciona nova feature'`).
+4.  Faça o _push_ para o _branch_ (`git push origin feature/sua-feature`).
+5.  Abra um _Pull Request_.
 
 ## 📄 Licença
 

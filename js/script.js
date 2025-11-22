@@ -3,11 +3,24 @@ const cardContainer = document.querySelector('.card-container')
 const campoBusca = document.querySelector('input')
 
 async function carregarDados() {
+    // Exibe um indicador de carregamento
+    cardContainer.innerHTML = '<p>Carregando...</p>'
+
     try {
         const resposta = await fetch('data.json')
+
+        // Verifica se a requisição foi bem-sucedida
+        if (!resposta.ok) {
+            throw new Error(`Erro de HTTP: ${resposta.status}`)
+        }
+
         dados = await resposta.json()
+        // Limpa o container antes de renderizar os cards
+        cardContainer.innerHTML = ''
     } catch (error) {
-        console.error('Erro ao carregar dados:', error)
+        console.error('Falha ao carregar dados:', error)
+        // Exibe uma mensagem de erro amigável para o usuário
+        cardContainer.innerHTML = `<p class="erro">Ops! Não foi possível carregar as informações. Tente novamente mais tarde.</p>`
     }
 }
 
@@ -40,6 +53,9 @@ function iniciarBusca() {
         item.nome.toLowerCase().includes(termoBusca)
     )
     renderizarCards(resultados)
+    console.log(
+        `Foram encontrados ${resultados.length} resultados para "${termoBusca}".`
+    )
 }
 
 campoBusca.addEventListener('input', iniciarBusca)
@@ -47,7 +63,6 @@ campoBusca.addEventListener('input', iniciarBusca)
 document.addEventListener('DOMContentLoaded', () => {
     carregarDados()
     configurarTema()
-    cardContainer.innerHTML = ''
 })
 
 function configurarTema() {
