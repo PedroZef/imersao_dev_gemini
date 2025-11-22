@@ -8,7 +8,7 @@ Você pode acessar a demonstração ao vivo do projeto aqui: [https://pedrozef.g
 
 ## 📸 Visualização
 
-![Screenshot do Projeto](https://github.com/PedroZef/imersao_dev_gemini/blog/main/assets/Tema Dark.png?raw=true)
+![Screenshot do Projeto](https://github.com/PedroZef/imersao_dev_gemini/blob/main/assets/Tema_Dark.png?raw=true)
 
 ## 🚀 Funcionalidades
 
